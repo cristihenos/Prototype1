@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<title>Prezentare</title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="template/contact.html"">Contact</a></li>
+				<li><a href="template/regist.html">Inregistrare si Curs Valutar</a></li>
+			</ul>
+		</nav>
+		<br>
+		<br>
+		<h1>Pagina Web ... in Constructie </h1>
+	</body>
+</html>
