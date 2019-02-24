@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>My Dog's Health and ID Records</title>
+</head>
+<body class="jumbotron">
+	<h1>My Dog's Health and ID Records</h1>
+	<!--  Ascundem prin JS -->
+		<h6><p id="p-1">Page settings</p></h6>
+		<div class="container">
+			<div class="row">
+						<div class="col-md-2">
+							<h6><p id="p12">Language:</p></h6>
+							<select name="Language"  class="form-control">
+								<option value="1">English</option>
+								<option value="2">Italiano</option>
+								<option value="3">Romana</option>
+							</select>
+						</div>
+						<div class="col-md-2">
+							<h6><p id="p12">Background Color:</p></h6>
+							<input type="range" name="rangeBack"  min="0" max="5" class="form-control-range">
+						</div>
+						<div>
+							<h6><p id="p12">Font:</p></h6>
+							<input type="range" name="rangeFont"  min="0" max="5" class="form-control-range">
+						</div>
+					</div>
+				</div><br>
+	<!--  date despre caine -->
+	<h6><p id="p-1">Recording data:</p></h6>
+		<div class="container">
+		  <form>
+				<div class="row">
+					<h6><p id="p12">Dog name:</p></h6>
+						<div class="col-xm-3">
+							<input type="text" name="dogName"  class="form-control" maxlength="12" placeholder="Rex">
+						</div>
+					<h6><p id="p12">Birth dates:</p></h6>
+						<div class="col-xm-3">
+							<input type="date" name="date"  class="form-control">
+						</div>
+					<h6><p id="p11">Years:</p></h6>
+						<div class="col-xm-3">
+							<input type="text" name="years" maxlength="2" class="form-control">
+						</div>
+					<h6><p id="p12">Weight:</p></h6>
+						<div class="col-xm-3">
+							<input type="text" name="weight" maxlength="2" class="form-control" placeholder="Kg">
+						</div>
+					</div>
+					<div class="row">
+						<h6><p id="p0">Dog body:</p></h6>
+						<div class="col-xm-3">
+								<select name="bodyList" class="form-control" >
+										<option value="1" id="p1">Very Big</option>
+										<option value="2" id="p2">Big</option>
+										<option value="3" id="p3">Average</option>
+										<option value="4" id="p4">Small</option>
+										<option value="5" id="p5">Very Small</option>
+								</select>
+						</div>
+						<h6><p id="p6">Food consumer:</p></h6>
+						<div  class="col-xm-3">
+								<select name="foodList" class="form-control">															<option value="1" id="p7">Big consumer</option>
+										<option value="2" id="p8">Moderate</option>
+										<option value="3" id="p9">Average</option>
+										<option value="4" id="p10">Small</option>
+								</select>
+						</div>
+					</div><br>
+				</div><br>
+			</form>
+		</div>
+</body>
+</html>
