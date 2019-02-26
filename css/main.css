@@ -16,3 +16,43 @@ p{
 	margin:2px;
 }
 
+#row0{
+	border: 1px solid black;
+	padding: 15px;
+	margin:20px;
+	border-radius: 5px;
+}
+
+#row1{
+	border: 1px solid black;
+	padding: 15px;
+	margin:20px;
+	border-radius: 5px;
+}
+
+#row2 {
+	border: 1px solid black;
+	padding: 15px;
+	margin:20px;
+	border-radius: 5px;
+}
+
+#row3 {
+	border: 1px solid black;
+	padding: 15px;
+	margin:20px;
+	border-radius: 5px;
+}
+
+#row4 {
+	border: 1px solid black;
+	padding: 15px;
+	margin:20px;
+	border-radius: 5px;
+}
+
+#containerDog{
+	border: 1px solid 6E6E6E;
+	padding: 20px;
+}
+
