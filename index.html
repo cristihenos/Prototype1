@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
@@ -11,118 +11,31 @@
 </head>
 <body class="jumbotron">
 
-	<!--  Sectiunea de Settings -->
+	<!--Page settings-->
 	<h1>My Dog's Health and ID Records</h1><br>
-		<h3 class="text-center"><button class="btn btn-warning" id="butnsPageSettings">Page settings</button></h3>
-			<div class="container">
-				<div class="row" id="row0">
-						<div class="col-sm-3">
-							<h6><p id="p12">Language:</p></h6>
-							<select name="Language"  class="form-control">
-								<option value="1">English</option>
-								<option value="2">Italiano</option>
-								<option value="3">Romana</option>
-							</select>
-						</div>
-						<div class="col-sm-3">
-							<h6><p id="p12">Background Color:</p></h6>
-							<input type="range" name="rangeBack"  min="0" max="5" class="form-control-range">
-						</div>
-						<div class="col-sm-3">
-							<h6><p id="p12">Font:</p></h6>
-							<input type="range" name="rangeFont"  min="0" max="5" class="form-control-range">
-						</div>
-					</div>
-				</div><br>
+		<h3 class="text-center">
+		<button class="btn btn-warning" id="btnRecordingdata">Recording data ▼</button>
+			<button class="btn btn-warning" id="btnSettings">Page settings ▼</button>
+				<button class="btn btn-warning" id="btnTerms">Terms and Conditions ▼</button>
+					<button class="btn btn-warning" id="btnAbout">About Us ▼</button></h3>
+			<div class="container" id="divCont0">
+				</div>
 
-	<!-- Sectiunea de TERMENII SI CONDITII-->
-	<h3 class="text-center"><button class="btn btn-warning" id="butnsPageSettings">Terms and Conditions</button></h3>
-			<div class="container">
-				<div class="row" id="row1">
-						<div class="col-sm-12">
-							<h3 class="text-center">TERMENII SI CONDITII</h3><br>
-								<h5>ACCEPTAREA CONDITIILOR</h5>
-									<p>- Prin accesarea acestui site web si/sau a oricarei pagini a acestuia sunteti de acord cu aceste conditii de utilizare. Daca NU sunteti de acord cu acesti termeni si conditii de utilizare NU accesati acest site. </P>
-								<h5>NEANGAJAREA RASPUNDERII</h5>
-									<p>- Catelus.netlify.com nu poate fi facut raspunzatoar in nici un fel de pierderile sau daunele pe care cineva le-ar putea suferi ca urmare a folosirii in vreun fel a informatiilor prezentate in acest site web.</p>
-									<p>- Catelus.netlify.com nu garanteaza in nici un fel acuratetea, gradul de utilitate sau caracterul complet al informatiilor sau al materialelor cuprinse in acest site. Catelus.netlify.com nu garanteaza rezultatele ce s-ar putea obtine din utilizarea informatiilor prezentate prin intermediul acestui site si nici disponibilitatea spre folosire a oricaror informatii prezente pe site.</p>
-									<p>- Catelus.netlify.com nu isi asuma nici o responsabilitate pentru continutul nici unui material prezentat pe acest site. Acestea sunt prezentate in scop informativ si fiind considerate ca fiind utile.</p>
-									<p>- Catelus.netlify.com nu poate fi tras la raspundere pentru materialele prezente pe site, acestea sunt prezentate in scop informativ, nu in scop comercial.</p>
-								<h5>REGULI GENERALE</h5>
-									<p>- Orice utilizator care viziteaza acest site o face pe propria raspundere. Materialele si informatiile continute in acest site sunt furnizate în scop de informare generala, nefiind insotite de nici un fel de garantii, explicite sau implicite.</p>
-									<p>Catelus.netlify.com nu isi asuma nici o raspundere pentru continutul website-urilor tertelor parţi pentru care exista link-uri pe Catelus.netlify.com. Utilizarea acestora atrage parasirea website-ului Catelus.netlify.com si se face pe propria raspundere a utilizatorului.</p>
-								<h5>LIMITARI DE ORDIN TEHNIC ALE SERVICIILOR</h5>
-									<p>- Catelus.netlify.com nu isi asuma nici o responsabilitate in cazul in care serviciile site-ului nu pot fi accesate de catre utilizatori, pe o perioada nelimitata/nedeterminata de timp, din orice motive tehnice sau comerciale.</p>
-								<h5>INCHEIEREA ACORDULUI</h5>
-									<p>- Catelus.netlify.com isi rezerva dreptul de a schimba termenii, conditiile si politicile in orice moment fara a anunta in prealabil, prin urmare sunteti rugat sa revedeti in mod regulat aceasta sectiune pentru a fi la curent cu modificarile aduse.</p>
-							</div>
-						</div>
-					</div><br>
+	<!--Terms and Conditions-->
+	<h3 class="text-center">
+			<div class="container" id="divCont1">
+					</div>
+						
+	<!--About Us-->
+	<h3 class="text-center">
+			<div class="container" id="divCont2">
+					</div>
 
-	<!--  Sectiunea de Index dog -->
-	<h3><p id="p-1" class="text-center">Recording data:</p></h3>
-		<div class="container" id="containerDog">
-		  <form>
-				<div class="row" id="row2">
-					<h6><p id="p12">Name:</p></h6>
-						<div class="col-sm-3">
-							<input type="text" name="dogName"  class="form-control" maxlength="12" placeholder="Rex">
-						</div>
-					<h6><p id="p12">Birth:</p></h6>
-						<div class="col-sm-3">
-							<input type="date" name="date"  class="form-control">
-						</div>
-					<h6><p id="p11">Years:</p></h6>
-						<div class="col-sm-3">
-							<input type="text" name="years" maxlength="2" class="form-control">
-						</div>
-					</div><br>
-					<div class="row" id="row3">
-					<h6><p id="p12">Weight:</p></h6>
-						<div class="col-sm-3">
-							<input type="text" name="weight" maxlength="2" class="form-control" placeholder="Kg">
-						</div>
-						<h6><p id="p12">Vaccines:</p></h6>
-						<div class="col-sm-3">
-							<select name="foodList" class="form-control" multiple="">
-										<option value="1" id="p7">Rabies 1-year</option>
-										<option value="2" id="p8">Rabies 3-year</option>
-										<option value="3" id="p9">Distemper</option>
-										<option value="4" id="p10">Parvovirus</option>
-										<option value="4" id="p10">Adenovirus,type 1 (CAV-1, canine hepatitis)</option>
-										<option value="4" id="p10">Adenovirus,type 2 (CAV-2, kennel cough)</option>
-										<option value="4" id="p10">Bordetella bronchiseptica (kennel cough)</option>
-										<option value="4" id="p10">Lyme disease</option>
-										<option value="4" id="p10">Canine influenza</option>
-								</select>
-								<label class="form-check-label"><a href="">Vaccines information</a></label>
-						</div>
-						<h6><p id="p12">Sex:</p></h6>
-						<div class="col-sm-3">
-							<input type="radio"  name="dogsex"  value="M">M<br>
-							<input type="radio"  name="dogsex" checked="" value="F">F
-						</div>
-					</div><br>
-					<div class="row" id="row4">
-						<h6><p id="p12">Particular signs:</p></h6>
-						<div class="col-sm-3">
-							<input type="text" name="signs" maxlength="30" class="form-control" placeholder="Signs">
-						</div>
-						<h6><p id="p12">Breed of dogs:</p></h6>
-						<div class="col-sm-3">
-							<input type="text" name="breed" maxlength="30" class="form-control" placeholder="Breed">
-							</div>
-						<div class="col-sm-3">
-							<button class="btn btn-warning" id="showbreed">Show me all Breed of dogs</button>
-						</div>
-					</div>
-					<div class="row" id="row5">
-						<div class="col-sm-12">
-							<button type="submit" class="btn btn-warning" id="submit" >Index the dog</button>
-						</div>
-					</div>
-				</div><br>
-			</form>
+	<!--Recording data-->
+		<div class="container" id="divCont3">
+		  
 		</div>
+
+	<script src="js/BtnsPage.js" ></script>
 </body>
 </html>
