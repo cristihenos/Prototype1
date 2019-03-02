@@ -10,12 +10,6 @@ body{
 
 }
 
-p{
-	padding: 8px;
-	text-align: center;
-	margin:2px;
-}
-
 #row0{
 	border: 1px solid black;
 	padding: 15px;
