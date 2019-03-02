@@ -1,5 +1,4 @@
 
-
 body{
 	width: auto;
 	height: auto;
@@ -8,6 +7,15 @@ body{
 	border: 1px solid black;
 	font-family: 'Palanquin Dark', sans-serif;
 
+}
+
+p{
+	font-size: 12px;
+	text-align: center;
+}
+
+span{
+	color:#FF0000;
 }
 
 #row0{
@@ -45,8 +53,29 @@ body{
 	border-radius: 5px;
 }
 
-#containerDog{
-	border: 1px solid 6E6E6E;
-	padding: 20px;
+#dogImg{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 2px solid #ffc107;
+	z-index: -1;
 }
+
+
+#h1dog{
+	margin-top: 110px;
+	padding: 5px;
+	text-align: center;
+	color: black;
+	box-shadow: 5px 5px 5px #ffc107;
+}
+
+#divCont4{
+	padding: 20px;
+	width: 750px;
+	height: 200px;	
+	margin-bottom: 30px;
+}
+
 
