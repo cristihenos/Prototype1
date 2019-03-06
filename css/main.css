@@ -17,11 +17,34 @@ span{
 	color:#FF0000;
 }
 
+table{
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.LestTr{
+
+	width: 350px;
+	padding: 5px;
+	font-style: italic;
+	text-align: center;	
+}
+
+.form-control{
+	border: 1px solid black;
+}
+
+.btn.btn-warning{
+	border: 1px solid orange;
+}
+
+
 #row0{
 	border: 1px solid black;
 	padding: 15px;
 	margin:20px;
 	border-radius: 5px;
+	background-color: #ffc107;
 }
 
 #row1{
@@ -29,6 +52,7 @@ span{
 	padding: 15px;
 	margin:20px;
 	border-radius: 5px;
+	background-color: #ffc107;
 }
 
 #row2 {
@@ -36,6 +60,7 @@ span{
 	padding: 15px;
 	margin:20px;
 	border-radius: 5px;
+	background-color: #ffc107;
 }
 
 #row3 {
@@ -43,6 +68,7 @@ span{
 	padding: 15px;
 	margin:20px;
 	border-radius: 5px;
+	background-color: #ffc107;
 }
 
 #row4 {
@@ -50,6 +76,7 @@ span{
 	padding: 15px;
 	margin:20px;
 	border-radius: 5px;
+	background-color: #ffc107;
 }
 
 #dogImg{
