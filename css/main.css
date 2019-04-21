@@ -167,9 +167,9 @@ button{
 }
 
 .sticky{
+  float: right;
   width: 225px;
   height: 224px;
-  margin-left: 700px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
