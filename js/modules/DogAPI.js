@@ -30,7 +30,7 @@ function dogAPImage(){
         console.error('EROARE TIP:', error);
         select4.innerHTML= 
         `
-        <h1 id="h1dog"><span>❤My Dog</span>'s Health and ID Records</h1>
+        <h1 id="h1dog"><span>❤</span>'s Health and ID Records</h1>
         
         `;
       });
