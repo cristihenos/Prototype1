@@ -14,8 +14,8 @@ function svgDog(){
    id="The_Dog"
    version="1.1"
    viewBox="0 0 138.37708 113.24167"
-   height="428"
-   width="523">
+   height="225"
+   width="225">
   <metadata
      id="metadata533">
     <rdf:RDF>
