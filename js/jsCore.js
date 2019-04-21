@@ -1,11 +1,12 @@
 import {BtnsPage} from './modules/BtnsPage.js';
-import {dogAPImage} from './modules/DogAPI.js';
+import {dogAPImage} from './modules/dogAPImage.js';
+import {svgDog} from './modules/svgDog.js';
+
 
 function load() {
-
+	dogAPImage();
 	 BtnsPage();
-	 dogAPImage();
-
+	 svgDog();
 };
 
 window.addEventListener('load', load);
